@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #CC5500;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 230px;
+  position: fixed;
+  top: 60px;
+  bottom: 50px;
+  left: 15px;
+  padding-top: 10px;
+  border-radius: 15px; /* Soft edges */
+}
+
+nav a {
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: #70bae2;
+}
+
+.submenu {
+  padding-left: 20px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  width: 200px;
+  left: 101%;
+  background-color: black;
+  border-radius: 15px; /* Soft edges */
+}
+
+.nav-item-with-submenu:hover .submenu {
+  display: block;
+}
+
+.sub-submenu {
+  padding-left: 20px;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  left: 101%;
+  background-color: black;
+  border-radius: 15px; /* Soft edges */
+}
+
+.submenu:hover .sub-submenu {
+  display: block;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.sas-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
